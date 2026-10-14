@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Site de Notícias da Ray</title>
+    <style>
+        body {
+            background-color: #f5effa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header {
+            background-color: #d8c2e8;
+            padding: 20px;
+            text-align: center;
+            color: #54266f;
+        }
+
+        nav {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav * {
+            display: inline-block;
+            color: #54266f;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        section {
+            background-color: #ffffff;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            background-color: #d8c2e8;
+            color: #54266f;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        .img-galinha {
+            float: left;
+            margin-right: 18px;
+            border: 3px solid #d8c2e8;
+        }
+
+        .img-familia {
+            float: right;
+        }
+
+        footer {
+            background-color: #d8c2e8;
+            text-align: center;
+            padding: 10px;
+            color: #54266f;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Site de Notícias da Ray</h1>
+        <p>As melhores notícias estão aqui!!</p>
+    </header>
+
+    <nav>
+        <a href="#noticias">Notícias</a> |
+        <a href="#entretenimento">Entretenimento</a> |
+        <a href="#maisnoticias">Mais Notícias</a> |
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="noticias">
+        <h2>Notícias do Dia</h2>
+        <h3>Galinha é vista atravessando a rua de maneira inusitada!</h3>
+        <img src="https://wp.com" alt="Imagem galinha" class="img-galinha" width="350">
+        <p>Uma galinha curiosa parou o trânsito e viralizou nas redes sociais após ser vista atravessando uma pista usando um par de tênis de grife. A foto acumulou muitas curtidas e comentários divertidos.</p>
+        <p>Ainda não se sabe como os tênis foram parar nas patas da galinha!</p>
+        <p><small><i>Publicado em: 10 de agosto de 2026</i></small></p>
+    </section>
+
+    <section id="entretenimento">
+        <h2>Entretenimento</h2>
+        <h3>Quem é a família mais amada do Brasil? Conheça agora!</h3>
+        <img src="https://imguol.com.br" alt="Imagem da família Brito" width="350" class="img-familia">
+        <p>A família Brito de Davi Brito, vencedor do BBB 24, é originária de Salvador e ficou bastante conhecida na mídia.</p>
+        <p>De acordo com os fãs, é uma família muito <b style="color: #54266f;">carismática</b>.</p>
+        <h4>Os principais membros são:</h4>
+        <ul>
+            <li>Davi Brito</li>
+            <li>Raquel Brito</li>
+            <li>Elisângela Brito</li>
+            <li>Demerval Brito</li>
+        </ul>
+    </section>
+
+    <section id="maisnoticias">
+        <h2>Mais Notícias</h2>
+        <ul>
+            <li><a href="https://uol.com.br" target="_blank">"Eu não vou quebrar minha cara": audiência diz Davi Brito...</a></li>
+            <li><a href="https://metropoles.com" target="_blank">Mãe de Davi Brito chora e diz que descobriu casamento pela internet</a></li>
+            <li><a href="https://terra.com.br" target="_blank">Davi Brito resolve desconvidar pessoas para o casamento com Mani Rego</a></li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Para entrar em contato conosco, envie um e-mail para: <b style="color: #54266f;">rayinformatica@gmail.com</b></p>
+        <p><i>Obrigado por visitar o nosso site! ♡</i></p>
+    </section>
+
+    <footer>
+        <p><b>Meu Site de Notícias</b> - 2026</p>
+    </footer>
+
+</body>
+</html>
